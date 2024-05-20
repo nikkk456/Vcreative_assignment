@@ -66,6 +66,10 @@ const LineChart = ({ data }) => {
             title: {
                 display: true,
                 text: 'Bike Purchases by Commute Distance',
+                font: {
+                    size: 16,
+                    weight: 'bolder', // Increase font weight
+                },
             },
             zoom: {
                 zoom: {
@@ -98,7 +102,7 @@ const LineChart = ({ data }) => {
     const chartData = processData(data);
 
     return (
-        <div className="chart-container" style={{ width: "60%" }}>
+        <div className="chart-container " style={{ width: "50%" }}>
             <Line data={chartData} options={options} />
         </div>
     )
