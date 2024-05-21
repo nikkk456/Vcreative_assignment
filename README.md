@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Vcreative Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This assignment is a frontend development assignment designed to demonstrate data analysis and visualization using React.js and Chart.js. The website provides insightful charts and graphs based on bike sales data, including features like zooming, filtering, and tooltips for better data interaction.
 
-## Available Scripts
+## Table of Contents
+- [Installation](#installation)
+- [Starting the Project](#starting-the-project)
+- [Features](#features)
+- [Charts Included](#charts-included)
+- [Data Source](#data-source)
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+To set up the project locally, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Clone the repository:**
+   git clone https://github.com/nikkk456/Vcreative_assignment.git
+   cd bike-sales-analysis
+2. **Install Dependencies**
+    npm install 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Starting-the-project
 
-### `npm test`
+To start the project, execute the following command in the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm start
 
-### `npm run build`
+This will start the development server and open the website in your default browser. If it doesn't open automatically, navigate to http://localhost:3000 in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+- Interactive Chart: The website includes interactive charts with features like zooming, tooltip and filtering to enhance data exploration.
+- Data Analysis:  A toolkit is available for users to customize the data view and perform specific analysis
+- Responsive Design: The website is designed to be responsive and user-friendly on various devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Charts Included
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Line Chart: Use to display the bike purchased or not by commute distance
+2. Pie Chart: Use to display Bike purchase by Age Bracket
+3. Bar Graph: Use to display Average salary of bike purchaser based on gender
 
-### `npm run eject`
+## Data Source
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The bike sales data used in this project was scraped from Kaggle. The dataset includes various attributes related to bike sales, allowing for comprehensive analysis and useful insights.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any further information or queries, please contact mishranp3@gmail.com.
