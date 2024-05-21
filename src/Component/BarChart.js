@@ -55,6 +55,7 @@ const BarChart = ({data}) => {
       
       const options = {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
           legend: {
             position: 'top',
@@ -77,7 +78,7 @@ const BarChart = ({data}) => {
     return (
         <div className='mx-2'>
       <FilterRegion regions={regions} onSelectRegion={setRegion} />
-      <div className="chart-container" style={{ position: 'relative', height: '400px', width: '600px' }}>
+      <div className="chart-container-bar">
         <Bar data={chartData} options={options} />
       </div>
     </div>

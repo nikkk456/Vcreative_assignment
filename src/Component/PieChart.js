@@ -54,7 +54,6 @@ const PieChart = ({ data }) => {
       
       const options = {
         responsive: true,
-        maintainAspectRatio: false,
         plugins: {
           legend: {
             position: 'right',
@@ -83,7 +82,7 @@ const PieChart = ({ data }) => {
       
     const chartData = processData(data);
     return (
-        <div className="chart-container flex justify-center" style={{width:"50%"}}>
+        <div className="chart-container-pie flex justify-center">
             <Pie data={chartData} options={options} />
         </div>
     )

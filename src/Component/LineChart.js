@@ -59,6 +59,7 @@ const LineChart = ({ data }) => {
 
     const options = {
         responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             legend: {
                 position: 'top',
@@ -102,7 +103,7 @@ const LineChart = ({ data }) => {
     const chartData = processData(data);
 
     return (
-        <div className="chart-container " style={{ width: "50%" }}>
+        <div className="chart-container-line">
             <Line data={chartData} options={options} />
         </div>
     )
