@@ -19,7 +19,7 @@ const Home = ({ data }) => {
 
   return (
     <div className=''>
-      <div className='flex justify-between'>
+      <div className='flex justify-between flex-wrap'>
         <div className=' p-4 text-2xl'>
           <h2 className=' font-bold ' >Overview</h2>
         </div>
@@ -27,10 +27,63 @@ const Home = ({ data }) => {
           <h3>Bike Sales Report (1995-2017)</h3>
         </div>
       </div>
-      <div className="flex justify-start flex-wrap bg-gray-100">
-        <Card title="Total Bike Sold" text={totalBikeSold} borderColor="rgba(75, 192, 192, 1)" />
-        <Card title="Number of Male Buyer" text={totalMaleBuyer} />
-        <Card title="Number Of Female Buyer" text={totalFemaleBuyer} />
+      <div className="flex justify-evenly flex-wrap bg-gray-100">
+        <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white m-4 border-2" style={{ width: "270px", borderColor: "#952828" }} >
+          <div className="px-6 py-4">
+            <div className="font-bold text-lg mb-2">
+              <i className="fas fa-chart-line mr-2"></i>
+              Total Bike Sold
+            </div>
+            <div className='flex justify-between'>
+              <p className="text-gray-700 font-semibold text-lg">
+                {totalBikeSold}
+              </p>
+              <div className="text-sm bg-green-100 text-green-800 font-semibold px-2.5 py-0.5 rounded">
+                +15%
+              </div>
+            </div>
+            <p className=' text-sm'>
+              (All Regions)
+            </p>
+          </div>
+        </div>
+        <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white m-4 border-2" style={{ width: "270px", borderColor: "darkcyan" }} >
+          <div className="px-6 py-4">
+            <div className="font-bold text-lg mb-2">
+              <i className="fas fa-male mr-2"></i>
+              Total Male Buyer
+            </div>
+            <div className='flex justify-between'>
+              <p className="text-gray-700 font-semibold text-lg">
+                {totalMaleBuyer}
+              </p>
+              <div className="text-sm bg-red-100 text-red-800 font-semibold px-2.5 py-0.5 rounded">
+                -5%
+              </div>
+            </div>
+            <p className=' text-sm'>
+              (All Regions)
+            </p>
+          </div>
+        </div>
+        <div className="max-w-sm rounded-xl overflow-hidden shadow-lg bg-white m-4 border-2" style={{ width: "270px", borderColor: "deeppink" }} >
+          <div className="px-6 py-4">
+            <div className="font-bold text-lg mb-2">
+              <i className="fas fa-female mr-2"></i>
+              Total Female Buyer</div>
+            <div className='flex justify-between'>
+              <p className="text-gray-700 font-semibold text-lg">
+                {totalFemaleBuyer}
+              </p>
+              <div className="text-sm bg-green-100 text-green-800 font-semibold px-2.5 py-0.5 rounded">
+                +35%
+              </div>
+            </div>
+            <p className=' text-sm'>
+              (All Regions)
+            </p>
+          </div>
+        </div>
       </div>
       <div className='flex justify-between flex-wrap my-2 mx-2'>
         <LineChart data={data} />
