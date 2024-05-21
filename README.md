@@ -1,4 +1,4 @@
-# Vcreative Assignment
+# Vcriate Assignment
 
 This assignment is a frontend development assignment designed to demonstrate data analysis and visualization using React.js and Chart.js. The website provides insightful charts and graphs based on bike sales data, including features like zooming, filtering, and tooltips for better data interaction.
 
