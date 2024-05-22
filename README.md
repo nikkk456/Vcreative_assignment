@@ -14,7 +14,7 @@ This assignment is a frontend development assignment designed to demonstrate dat
 To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
-   git clone https://github.com/nikkk456/Vcreative_assignment.git
+   git clone https://github.com/nikkk456/Vcriate_assignment.git
    cd bike-sales-analysis
 2. **Install Dependencies**
     npm install 
