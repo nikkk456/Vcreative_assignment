@@ -15,7 +15,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository:**
    git clone https://github.com/nikkk456/Vcriate_assignment.git
-   cd bike-sales-analysis
+   cd Vcriate_assignment
 2. **Install Dependencies**
     npm install 
 
